@@ -1,0 +1,33 @@
+//
+//  WDPrefixHeader.pch
+//  Class
+//
+//  Created by wbb on 2020/3/3.
+//  Copyright © 2020 WD. All rights reserved.
+//
+
+#ifndef WDPrefixHeader_pch
+#define WDPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ExtensionHeader.h"
+#import "WDHeader.h"
+#import "WDSimpleCode.h"
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "WDGlobal.h"
+#import "WDFaceId.h"
+#import "WDBaseTags.h"
+#import "WDRequestURL.h"
+#import "TYNetworkTool.h"
+#import "WDUtil.h"
+#import "WDKeyList.h"
+#import <YYModel/YYModel.h>
+#import "AppDelegate.h"
+#import "WDConfManager.h"
+#import "WDEnum.h"
+#import "IQKeyboardManager.h"
+
+#endif /* WDPrefixHeader_pch */
