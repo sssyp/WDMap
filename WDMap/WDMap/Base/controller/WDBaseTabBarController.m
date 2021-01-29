@@ -7,26 +7,24 @@
 //
 
 #import "WDBaseTabBarController.h"
-#import "WDMoreVC.h"
-#import "WDClassVC.h"
-#import "WDCourseVC.h"
+#import "WDRecommendVC.h"
+#import "WDHistoryVC.h"
+#import "WDCoordinateVC.h"
 #import "WDBaseNavigationController.h"
-#import "WDFaceFingerprintView.h"
-#import "WDBiometryView.h"
+#import "WDARVC.h"
+#import "WDMineVC.h"
 
 @interface WDBaseTabBarController ()
-@property (nonatomic, strong) WDFaceFingerprintView *faceView;
-@property (nonatomic, strong) WDBiometryView *biometryView;
+//@property (nonatomic, strong) WDFaceFingerprintView *faceView;
+//@property (nonatomic, strong) WDBiometryView *biometryView;
 
-/** 当前索引 */
-@property (nonatomic, assign) NSInteger currentIndex;
-/** TabBar上的ImageViewArray */
-@property (nonatomic, copy) NSArray *tabBarImageVArray;
+///** 当前索引 */
+//@property (nonatomic, assign) NSInteger currentIndex;
+///** TabBar上的ImageViewArray */
+//@property (nonatomic, copy) NSArray *tabBarImageVArray;
 
 @end
 
-// tabBarItem数量
-static const CGFloat itemCount = 3;
 
 @implementation WDBaseTabBarController
 
@@ -40,13 +38,13 @@ static const CGFloat itemCount = 3;
     [self addTabBarVC:[[WDClassVC alloc] init] withTitle:@"上课" withNormalImage:@"class_tabbar_normal" withSelectImage:@"class_tabbar_select"];
     [self addTabBarVC:[[WDMoreVC alloc] init] withTitle:@"我的" withNormalImage:@"more_table_normal" withSelectImage:@"more_table_select"];
     
-    if ([WDGlobal isLogin]&&[[WDUtil getInfoForKey:WD_ISCHOOSEFACE] boolValue]) {
-        self.faceView.hidden = NO;
-    }
-    
-    if ([WDGlobal isLogin] && ![[WDUtil getInfoForKey:WD_ISCHOOSEFACE] boolValue] && [[WDUtil getInfoForKey:WD_FACEANDTOUCH] boolValue] && ![WDUtil shareInstance].isFaceBackLogin) {
-        self.biometryView.hidden = NO;
-    }
+//    if ([WDGlobal isLogin]&&[[WDUtil getInfoForKey:WD_ISCHOOSEFACE] boolValue]) {
+//        self.faceView.hidden = NO;
+//    }
+//
+//    if ([WDGlobal isLogin] && ![[WDUtil getInfoForKey:WD_ISCHOOSEFACE] boolValue] && [[WDUtil getInfoForKey:WD_FACEANDTOUCH] boolValue] && ![WDUtil shareInstance].isFaceBackLogin) {
+//        self.biometryView.hidden = NO;
+//    }
 }
 
 - (void)addTabBarVC:(UIViewController *)viewController withTitle:(NSString *)title withNormalImage:(NSString *)normalImage withSelectImage:(NSString *)selectImage {

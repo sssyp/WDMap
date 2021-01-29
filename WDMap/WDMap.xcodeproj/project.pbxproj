@@ -34,6 +34,16 @@
 		32B24D9525C425DE001DE9C5 /* XWToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24D6225C425DE001DE9C5 /* XWToolBar.m */; };
 		32B24D9625C425DE001DE9C5 /* XWFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24D6525C425DE001DE9C5 /* XWFloatingView.m */; };
 		32B24D9725C425DE001DE9C5 /* TYNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24D6825C425DE001DE9C5 /* TYNetworkTool.m */; };
+		32B24DBA25C434A1001DE9C5 /* WDMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24DB825C434A1001DE9C5 /* WDMineVC.m */; };
+		32B24DBB25C434A1001DE9C5 /* WDMineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B24DB925C434A1001DE9C5 /* WDMineVC.xib */; };
+		32B24DC125C434BE001DE9C5 /* WDARVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24DBF25C434BE001DE9C5 /* WDARVC.m */; };
+		32B24DC225C434BE001DE9C5 /* WDARVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B24DC025C434BE001DE9C5 /* WDARVC.xib */; };
+		32B24DC725C434DB001DE9C5 /* WDCoordinateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24DC525C434DB001DE9C5 /* WDCoordinateVC.m */; };
+		32B24DC825C434DB001DE9C5 /* WDCoordinateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B24DC625C434DB001DE9C5 /* WDCoordinateVC.xib */; };
+		32B24DCD25C434F4001DE9C5 /* WDHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24DCB25C434F4001DE9C5 /* WDHistoryVC.m */; };
+		32B24DCE25C434F4001DE9C5 /* WDHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B24DCC25C434F4001DE9C5 /* WDHistoryVC.xib */; };
+		32B24DD325C4350F001DE9C5 /* WDRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B24DD125C4350F001DE9C5 /* WDRecommendVC.m */; };
+		32B24DD425C4350F001DE9C5 /* WDRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B24DD225C4350F001DE9C5 /* WDRecommendVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +107,21 @@
 		32B24D6525C425DE001DE9C5 /* XWFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFloatingView.m; sourceTree = "<group>"; };
 		32B24D6725C425DE001DE9C5 /* TYNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYNetworkTool.h; sourceTree = "<group>"; };
 		32B24D6825C425DE001DE9C5 /* TYNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYNetworkTool.m; sourceTree = "<group>"; };
+		32B24DB725C434A1001DE9C5 /* WDMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDMineVC.h; sourceTree = "<group>"; };
+		32B24DB825C434A1001DE9C5 /* WDMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDMineVC.m; sourceTree = "<group>"; };
+		32B24DB925C434A1001DE9C5 /* WDMineVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDMineVC.xib; sourceTree = "<group>"; };
+		32B24DBE25C434BE001DE9C5 /* WDARVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDARVC.h; sourceTree = "<group>"; };
+		32B24DBF25C434BE001DE9C5 /* WDARVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDARVC.m; sourceTree = "<group>"; };
+		32B24DC025C434BE001DE9C5 /* WDARVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDARVC.xib; sourceTree = "<group>"; };
+		32B24DC425C434DB001DE9C5 /* WDCoordinateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDCoordinateVC.h; sourceTree = "<group>"; };
+		32B24DC525C434DB001DE9C5 /* WDCoordinateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDCoordinateVC.m; sourceTree = "<group>"; };
+		32B24DC625C434DB001DE9C5 /* WDCoordinateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDCoordinateVC.xib; sourceTree = "<group>"; };
+		32B24DCA25C434F4001DE9C5 /* WDHistoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDHistoryVC.h; sourceTree = "<group>"; };
+		32B24DCB25C434F4001DE9C5 /* WDHistoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDHistoryVC.m; sourceTree = "<group>"; };
+		32B24DCC25C434F4001DE9C5 /* WDHistoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDHistoryVC.xib; sourceTree = "<group>"; };
+		32B24DD025C4350F001DE9C5 /* WDRecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDRecommendVC.h; sourceTree = "<group>"; };
+		32B24DD125C4350F001DE9C5 /* WDRecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDRecommendVC.m; sourceTree = "<group>"; };
+		32B24DD225C4350F001DE9C5 /* WDRecommendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WDRecommendVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +346,7 @@
 		32B24DA225C425EE001DE9C5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				32B24DD625C436B1001DE9C5 /* login */,
 				32B24DA725C42691001DE9C5 /* Mine */,
 				32B24DA625C42688001DE9C5 /* AR */,
 				32B24DA525C42664001DE9C5 /* Coordinate */,
@@ -333,6 +359,9 @@
 		32B24DA325C42601001DE9C5 /* Recommend */ = {
 			isa = PBXGroup;
 			children = (
+				32B24DD025C4350F001DE9C5 /* WDRecommendVC.h */,
+				32B24DD125C4350F001DE9C5 /* WDRecommendVC.m */,
+				32B24DD225C4350F001DE9C5 /* WDRecommendVC.xib */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -340,6 +369,9 @@
 		32B24DA425C42656001DE9C5 /* History */ = {
 			isa = PBXGroup;
 			children = (
+				32B24DCA25C434F4001DE9C5 /* WDHistoryVC.h */,
+				32B24DCB25C434F4001DE9C5 /* WDHistoryVC.m */,
+				32B24DCC25C434F4001DE9C5 /* WDHistoryVC.xib */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -347,6 +379,9 @@
 		32B24DA525C42664001DE9C5 /* Coordinate */ = {
 			isa = PBXGroup;
 			children = (
+				32B24DC425C434DB001DE9C5 /* WDCoordinateVC.h */,
+				32B24DC525C434DB001DE9C5 /* WDCoordinateVC.m */,
+				32B24DC625C434DB001DE9C5 /* WDCoordinateVC.xib */,
 			);
 			path = Coordinate;
 			sourceTree = "<group>";
@@ -354,6 +389,9 @@
 		32B24DA625C42688001DE9C5 /* AR */ = {
 			isa = PBXGroup;
 			children = (
+				32B24DBE25C434BE001DE9C5 /* WDARVC.h */,
+				32B24DBF25C434BE001DE9C5 /* WDARVC.m */,
+				32B24DC025C434BE001DE9C5 /* WDARVC.xib */,
 			);
 			path = AR;
 			sourceTree = "<group>";
@@ -361,6 +399,9 @@
 		32B24DA725C42691001DE9C5 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				32B24DB725C434A1001DE9C5 /* WDMineVC.h */,
+				32B24DB825C434A1001DE9C5 /* WDMineVC.m */,
+				32B24DB925C434A1001DE9C5 /* WDMineVC.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -374,6 +415,13 @@
 				32B24D0D25C41EF2001DE9C5 /* main.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		32B24DD625C436B1001DE9C5 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,7 +482,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B24D0B25C41EF2001DE9C5 /* LaunchScreen.storyboard in Resources */,
+				32B24DD425C4350F001DE9C5 /* WDRecommendVC.xib in Resources */,
 				32B24D0825C41EF2001DE9C5 /* Assets.xcassets in Resources */,
+				32B24DC825C434DB001DE9C5 /* WDCoordinateVC.xib in Resources */,
+				32B24DC225C434BE001DE9C5 /* WDARVC.xib in Resources */,
+				32B24DCE25C434F4001DE9C5 /* WDHistoryVC.xib in Resources */,
+				32B24DBB25C434A1001DE9C5 /* WDMineVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +505,9 @@
 				32B24D8C25C425DE001DE9C5 /* UIColor+WDExtend.m in Sources */,
 				32B24D8325C425DE001DE9C5 /* NSString+WDExtension.m in Sources */,
 				32B24CFD25C41EEF001DE9C5 /* AppDelegate.m in Sources */,
+				32B24DC725C434DB001DE9C5 /* WDCoordinateVC.m in Sources */,
 				32B24D9725C425DE001DE9C5 /* TYNetworkTool.m in Sources */,
+				32B24DCD25C434F4001DE9C5 /* WDHistoryVC.m in Sources */,
 				32B24D8F25C425DE001DE9C5 /* WDGlobal.m in Sources */,
 				32B24D9525C425DE001DE9C5 /* XWToolBar.m in Sources */,
 				32B24D8A25C425DE001DE9C5 /* UIDevice+WDDevice.m in Sources */,
@@ -461,10 +516,13 @@
 				32B24D7A25C425DE001DE9C5 /* WDBaseTags.m in Sources */,
 				32B24D7B25C425DE001DE9C5 /* WDBaseViewController.m in Sources */,
 				32B24D7C25C425DE001DE9C5 /* WDBaseTableViewController.m in Sources */,
+				32B24DD325C4350F001DE9C5 /* WDRecommendVC.m in Sources */,
 				32B24D8525C425DE001DE9C5 /* MBProgressHUD+Constructor.m in Sources */,
 				32B24D8825C425DE001DE9C5 /* UIViewController+WDPresentVC.m in Sources */,
+				32B24DBA25C434A1001DE9C5 /* WDMineVC.m in Sources */,
 				32B24D8025C425DE001DE9C5 /* WDBaseTabBarController.m in Sources */,
 				32B24D9625C425DE001DE9C5 /* XWFloatingView.m in Sources */,
+				32B24DC125C434BE001DE9C5 /* WDARVC.m in Sources */,
 				32B24D7F25C425DE001DE9C5 /* WDBaseNavigationController.m in Sources */,
 				32B24D8125C425DE001DE9C5 /* WDBaseView.m in Sources */,
 				32B24D0E25C41EF2001DE9C5 /* main.m in Sources */,
